@@ -9,10 +9,16 @@ function ImageDialog({ open, onClose, imageData }) {
       <DialogContent sx={{ textAlign: "center", position: "relative" }}>
         {/* タイトル */}
         <Typography
-          variant="h4"
           fontWeight="bold"
           gutterBottom
           color="textSecondary"
+          sx={{
+            fontFamily: "'Noto Serif JP', serif",
+            fontSize: {
+              xs: "1.5rem",
+              sm: "2rem",
+            },
+          }}
         >
           {imageData.title}
         </Typography>

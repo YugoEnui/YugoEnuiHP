@@ -74,6 +74,16 @@ function MenuDialog({ open, onClose }) {
             <Typography variant="h5">SNS</Typography>
           </MuiLink>
         </Stack>
+        {/* CONTACT → GoogleFormに外部リンク */}
+        <MuiLink
+          href="https://docs.google.com/forms/d/e/1FAIpQLSfCr9itAbl4CbdTyJyRJx9pzcD5vycb9qTzRA4MIesGjTG-Mw/viewform?usp=header"
+          target="_blank"
+          rel="noopener noreferrer"
+          underline="none"
+          color="inherit"
+        >
+          <Typography variant="h5">CONTACT</Typography>
+        </MuiLink>
       </Box>
     </Dialog>
   );

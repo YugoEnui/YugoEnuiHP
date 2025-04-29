@@ -18,7 +18,7 @@ function MenuBar() {
             aria-label="menu"
             onClick={() => setMenuOpen(true)}
           >
-            <MenuIcon sx={{ color: "black" }} />
+            <MenuIcon sx={{ fontSize: 35, color: "gray" }} />
           </IconButton>
         </Toolbar>
       </AppBar>
