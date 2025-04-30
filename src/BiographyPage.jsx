@@ -59,7 +59,7 @@ function BiographyPage() {
           <ListItem
             sx={{
               fontSize: {
-                xs: "0.8rem",
+                xs: "0.7rem",
                 sm: "1rem",
               },
             }}
@@ -69,7 +69,7 @@ function BiographyPage() {
           <ListItem
             sx={{
               fontSize: {
-                xs: "0.8rem",
+                xs: "0.7rem",
                 sm: "1rem",
               },
             }}
@@ -79,11 +79,11 @@ function BiographyPage() {
           <ListItem
             sx={{
               fontSize: {
-                xs: "0.8rem",
+                xs: "0.7rem",
                 sm: "1rem",
               },
               pl: {
-                xs: 6.5,
+                xs: 6,
                 sm: 8,
               },
             }}
@@ -112,7 +112,7 @@ function BiographyPage() {
         <ListItem
           sx={{
             fontSize: {
-              xs: "0.8rem",
+              xs: "0.7rem",
               sm: "1rem",
             },
           }}
@@ -122,7 +122,7 @@ function BiographyPage() {
         <ListItem
           sx={{
             fontSize: {
-              xs: "0.8rem",
+              xs: "0.7rem",
               sm: "1rem",
             },
           }}
@@ -150,7 +150,7 @@ function BiographyPage() {
         <ListItem
           sx={{
             fontSize: {
-              xs: "0.8rem",
+              xs: "0.7rem",
               sm: "1rem",
             },
           }}
@@ -160,11 +160,11 @@ function BiographyPage() {
         <ListItem
           sx={{
             fontSize: {
-              xs: "0.8rem",
+              xs: "0.7rem",
               sm: "1rem",
             },
             pl: {
-              xs: 6.5,
+              xs: 6,
               sm: 8,
             },
           }}
