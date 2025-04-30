@@ -45,7 +45,21 @@ function ImageDialog({ open, onClose, imageData }) {
         <Typography variant="body2" color="textSecondary" mb={2}>
           {imageData.size}
         </Typography>
-
+        {/* リンク */}
+        {imageData.link && (
+          <Typography variant="body2">
+            <a
+              href={imageData.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                color: "#1976d2", // リンクカラー
+              }}
+            >
+              Media
+            </a>
+          </Typography>
+        )}
         {/* Closeボタン */}
         <Typography
           variant="button"
@@ -69,6 +83,7 @@ ImageDialog.propTypes = {
     year: PropTypes.string,
     materials: PropTypes.string,
     size: PropTypes.string,
+    link: PropTypes.string,
   }),
 };
 

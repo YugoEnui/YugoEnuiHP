@@ -3,39 +3,72 @@ import { useState } from "react";
 import ImageDialog from "./components/ImageDialog";
 
 // 画像データを配列で管理（拡張！）
-import image1 from "../assets/SONY01302.jpg";
-import image2 from "../assets/IMG_0236.jpg";
-import image3 from "../assets/DSC_6.jpg";
-import image4 from "../assets/DSC_2_0001.jpg";
+import image1 from "../assets/hu.jpg";
+import image2 from "../assets/revival.jpg";
+import image3 from "../assets/nagareru.jpg";
+import image4 from "../assets/mizu.jpg";
+import image5 from "../assets/henka.jpg";
+import image6 from "../assets/view.jpg";
+import image7 from "../assets/control.jpg";
+import image8 from "../assets/kabin.jpg";
+import image9 from "../assets/zyuuryoku.jpg";
 
 const images = [
   {
     src: image1,
-    title: "title",
-    year: "20xx",
-    materials: "Glass",
-    size: "h.30.0 x w.30.0 x d.5.0 cm",
+    title: "不",
+    materials: "ガラス",
+    size: "H180×W180×D180mm",
+    link: "https://www.tamabi.ac.jp/works/28404",
   },
   {
     src: image2,
-    title: "title",
-    year: "20xx",
-    materials: "Glass, pigment",
-    size: "h.30.0 x w.30.0 x d.5.0 cm",
+    title: "revival",
+    materials: "ガラス",
+    size: "H80×W80×D80mm",
+    link: "https://www.ccis-toyama.or.jp/takaoka/craft/selection21/2021-024/?fbclid=PAZXh0bgNhZW0CMTEAAaexTM79Co_85LC0XgS8nglO8VwazheJskA76Adk0Lvko3TuWtVYSjcp4SnhpA_aem_wrUdJEmyGNstYHMza0r00A",
   },
   {
     src: image3,
-    title: "title",
-    year: "20xx",
-    materials: "Glass, pigment",
-    size: "h.30.0 x w.30.0 x d.5.0 cm",
+    title: "流れる",
+    materials: "板ガラス",
+    size: "H105×W210×D5mm",
   },
   {
     src: image4,
-    title: "title",
-    year: "20xx",
-    materials: "Glass, pigment",
-    size: "h.30.0 x w.30.0 x d.5.0 cm",
+    title: "水",
+    materials: "板ガラス",
+    size: "H100×W100×D100mm",
+  },
+  {
+    src: image5,
+    title: "変化",
+    materials: "ガラス",
+    size: "H445×W335×D60mm",
+  },
+  {
+    src: image6,
+    title: "view",
+    materials: "ガラス",
+    size: "H230×W90×D105mm",
+  },
+  {
+    src: image7,
+    title: "control",
+    materials: "ガラス",
+    size: "H290×W95×D100mm",
+  },
+  {
+    src: image8,
+    title: "花瓶",
+    materials: "板ガラス",
+    size: "H210×W90×D100mm",
+  },
+  {
+    src: image9,
+    title: "重力",
+    materials: "ガラス　木材",
+    size: "H1800×W300×D300mm",
   },
   // 必要に応じて続く！
 ];
